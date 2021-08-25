@@ -1,0 +1,18 @@
+.aboutPanel {
+    text-align: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+
+.title {
+    letter-spacing: 0.45em;
+    color: rgb(125, 134, 155);
+}
+
+.data {
+    color: rgb(125, 134, 155);
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
