@@ -18,9 +18,3 @@ function about(){
 }
 
 export default about;
-
-/**
- * <div className="titlediv">
-                <h3 class="title">A B O U T   P R O D U C T</h3>
-            </div>
- */

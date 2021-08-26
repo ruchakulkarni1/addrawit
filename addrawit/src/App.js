@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import About from "./Tabs/about"
+import Contact from "./Tabs/contact"
 
 function App() {
   return (
@@ -33,6 +34,11 @@ function App() {
     <Route path="/about">
       <div class="aboutMainDiv">
           <About></About>
+      </div>
+    </Route>
+    <Route path="/contact">
+      <div class="contactMainDiv">
+          <Contact></Contact>
       </div>
     </Route>
 </Switch>

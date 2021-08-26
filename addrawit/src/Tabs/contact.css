@@ -1,0 +1,39 @@
+.contactPanel {
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+
+.contactTitle {
+    letter-spacing: 0.45em;
+    color: rgb(125, 134, 155);
+}
+
+.label1 {
+    margin-top: 20px;
+    color: rgb(125, 134, 155);
+}
+
+.submitbtn, .resetbtn {
+    margin-top: 20px;
+    width: 140px;
+    background-color: rgb(125, 134, 155);
+    color: white;
+    border-radius: 10px;
+    border-color: rgb(125, 134, 155);
+}
+
+.resetbtn {
+    margin-left: 20px;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+}
