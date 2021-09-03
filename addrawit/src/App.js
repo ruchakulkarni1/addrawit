@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import About from "./Tabs/about"
 import Contact from "./Tabs/contact"
+import Shop from "./Tabs/shop"
 
 function App() {
   return (
@@ -39,6 +40,11 @@ function App() {
     <Route path="/contact">
       <div class="contactMainDiv">
           <Contact></Contact>
+      </div>
+    </Route>
+    <Route path="/shop">
+      <div class="shopMainDiv">
+          <Shop></Shop>
       </div>
     </Route>
 </Switch>

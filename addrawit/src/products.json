@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Frame",
+        "id": "frame_1",
+        "description": "8\" X 14\"",
+        "image": "./images/A01.jpg",
+        "price": "800.00"
+      },
+      {
+        "title": "Frame",
+        "id": "frame_2",
+        "description": "8\" X 14\"",
+        "image": "images/A02",
+        "price": "800.00"
+      },
+      {
+        "title": "Frame",
+        "id": "frame_3",
+        "description": "8\" X 14\"",
+        "image": "./images/A01.jpg",
+        "price": "800.00"
+      },
+      {
+        "title": "Frame",
+        "id": "frame_4",
+        "description": "8\" X 14\"",
+        "image": "images/A04",
+        "price": "800.00"
+      },
+      {
+        "title": "Frame",
+        "id": "frame_5",
+        "description": "8\" X 14\"",
+        "image": "images/A05",
+        "price": "800.00"
+      }
+]

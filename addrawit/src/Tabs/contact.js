@@ -1,12 +1,26 @@
 import React from "react";
+import emailjs from 'emailjs-com';
 //import 'bootstrap/dist/css/bootstrap.min.css';
 import './contact.css'
 
 
 function contact(){
 
+    function sendEmail(e) {
+        e.preventDefault();
+    
+        emailjs.init("user_L9rIYFbcYs3DcvKumt9o1");
+        emailjs.sendForm('service_adroit', 'template_adroit', e.target, 'user_L9rIYFbcYs3DcvKumt9o1')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+      }
+
     return(
         <div className="contactPanel">
+            <form className="contactForm" onSubmit={sendEmail}>
             <div className="row">
             <h3 class="contactTitle">Contact US</h3>
             </div>
@@ -38,6 +52,7 @@ function contact(){
                 <input class="submitbtn" type="submit" value="Submit" />
                 <input class="resetbtn" type="reset" value="Reset" />
             </div>
+            </form>
         </div>
     )
 }
